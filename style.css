@@ -4,13 +4,7 @@ section {
 }
 
 .dark {
-    background-color: #1a1a1a;
-    color: #ffffff;
-}
-
-.dark article
-{
-    background-color: #2a2a2a;
+    background-color: #cde9a9;
 }
 
 .profile_image
@@ -21,3 +15,9 @@ section {
     margin: 0 auto 1rem auto;
     display: block;
 }
+
+h1 {
+    --pico-font-family: Pacifico, cursive;
+    --pico-font-weight: 400;
+    --pico-typography-spacing-vertical: 0.5rem;
+  }
